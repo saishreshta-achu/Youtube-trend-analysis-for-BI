@@ -1,66 +1,112 @@
 # YouTube Trend Analysis for Business Intelligence
 
-This project analyzes YouTube trends using machine learning and Python libraries. It provides insights into trending videos, categories, and user engagement.
+## Project Overview
+
+This project performs **trend analysis on YouTube data** to provide actionable insights for business intelligence. The project collects, cleans, and analyzes YouTube data, then visualizes trends and performance metrics using Python and Power BI.
+
+---
 
 ## Features
 
-1. **Data Collection**: Fetch trending video data using the YouTube Data API.
-2. **Data Cleaning**: Remove duplicates, handle missing values, and normalize data.
-3. **Analysis**: Calculate engagement metrics, analyze categories, and identify frequent upload times.
-4. **Visualization**: Generate plots for insights.
-5. **Sentiment Analysis**: Perform sentiment analysis on video comments.
-6. **Dashboard**: Interactive dashboard to display KPIs and visualizations.
+* **Data Collection**: Scrapes YouTube video data including views, likes, comments, and publishing details.
+* **Data Cleaning & Processing**: Cleans raw data and prepares it for analysis.
+* **Trend Analysis**: Identifies trending topics, high-performing channels, and engagement patterns.
+* **Visual Dashboard**: Interactive Power BI dashboard showing insights on likes, views, demographics, and competitors.
+* **Version Control**: Project is managed with Git for proper versioning and collaboration.
+
+---
+
+## Tools & Technologies
+
+* **Python**: For data collection, cleaning, and analysis (`pandas`, `numpy`, `matplotlib`, `seaborn`)
+* **Power BI**: For interactive dashboards and visualizations
+* **Git & GitHub**: Version control and project hosting
+
+---
 
 ## Folder Structure
 
 ```
 youtube_trend_analysis/
-├── data/               # store raw and cleaned datasets
-├── notebooks/          # Jupyter notebooks for analysis
-├── src/                # Python scripts
-│   ├── __init__.py
-│   ├── data_collection.py
-│   ├── data_cleaning.py
-│   ├── analysis.py
-│   ├── visualization.py
-│   ├── sentiment_analysis.py
-│   └── dashboard.py
-├── requirements.txt    # dependencies
-├── main.py             # main entry point
-├── README.md
+│
+├─ main.py                 # Main script to run analysis
+├─ requirements.txt        # Python dependencies
+├─ README.md               # Project documentation
+├─ shreshtaBI.pbix         # Power BI dashboard
+└─ src/
+   ├─ data_collection.py   # Script to collect YouTube data
+   ├─ data_cleaning.py     # Data cleaning operations
+   ├─ analysis.py          # Data analysis scripts
+   └─ __init__.py
 ```
 
-## Setup
+---
 
-1. Clone the repository.
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Add your YouTube Data API key in the appropriate script.
+## How to Run
 
-## Usage
+1. Clone the repository:
 
-Run the main script:
+```bash
+git clone https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI.git
+cd Youtube-trend-analysis-for-BI
+```
+
+2. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/Scripts/activate   # Windows
+```
+
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the analysis:
+
 ```bash
 python main.py
 ```
 
-Follow the CLI menu to perform various tasks like data collection, cleaning, analysis, and visualization.
+5. Open the Power BI dashboard `shreshtaBI.pbix` to view visual insights.
 
-## Dependencies
+---
 
-- google-api-python-client
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- plotly
-- streamlit
-- textblob
-- nltk
-- wordcloud
+## Screenshots
 
-## License
+### YouTube Trends Overview
 
-This project is licensed under the MIT License.
+![Trends Dashboard](screenshots/trends_overview.png)
+
+### Top Channels Analysis
+
+![Top Channels](screenshots/top_channels.png)
+
+### Engagement Insights
+
+![Engagement Insights](screenshots/engagement.png)
+
+> 💡 Tip: Save your screenshots in a `screenshots/` folder inside your repo and update the paths above.
+
+---
+
+## Project Impact
+
+* **Business Intelligence Insights**: Helps businesses identify trending topics and top-performing channels for marketing strategies.
+* **Data-Driven Decisions**: Provides metrics like views, likes, and demographics to optimize content strategies.
+* **Portfolio Showcase**: Demonstrates end-to-end analytics workflow — data collection, cleaning, analysis, and visualization.
+
+---
+
+## GitHub Repository
+
+[YouTube Trend Analysis for BI](https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI)
+
+---
+
+## Author
+
+**Sai Shreshta Santhosh**
+Final Year CSE Student | Bharat Institute of Engineering and Technology, Hyderabad
