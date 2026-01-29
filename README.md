@@ -39,41 +39,6 @@ youtube_trend_analysis/
    ├─ analysis.py          # Data analysis scripts
    └─ __init__.py
 ```
-
----
-
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI.git
-cd Youtube-trend-analysis-for-BI
-```
-
-2. Create a virtual environment (optional but recommended):
-
-```bash
-python -m venv venv
-source venv/Scripts/activate   # Windows
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the analysis:
-
-```bash
-python main.py
-```
-
-5. Open the Power BI dashboard `shreshtaBI.pbix` to view visual insights.
-
----
-
 ## Screenshots
 
 ### YouTube Trends Overview
@@ -88,8 +53,6 @@ python main.py
 ### Engagement Insights
 
 ![Engagement Insights]([screenshots/engagement.png](https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI/blob/main/Screenshot%202025-06-01%20095356.png),https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI/blob/main/Screenshot%202025-06-01%20113903.png)
-
-> 💡 Tip: Save your screenshots in a `screenshots/` folder inside your repo and update the paths above.
 
 ---
 
