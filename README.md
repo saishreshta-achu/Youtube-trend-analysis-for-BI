@@ -78,15 +78,16 @@ python main.py
 
 ### YouTube Trends Overview
 
-![Trends Dashboard](screenshots/trends_overview.png)
+![Trends Dashboard]([screenshots/trends_overview.png](https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI/blob/main/Screenshot%202026-01-29%20203709.png))
 
-### Top Channels Analysis
 
-![Top Channels](screenshots/top_channels.png)
+### Top Videos By Views Analysis
+
+![Top Videos]([screenshots/top_channels.png](https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI/blob/main/Screenshot%202026-01-29%20202033.png))
 
 ### Engagement Insights
 
-![Engagement Insights](screenshots/engagement.png)
+![Engagement Insights]([screenshots/engagement.png](https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI/blob/main/Screenshot%202025-06-01%20095356.png),https://github.com/saishreshta-achu/Youtube-trend-analysis-for-BI/blob/main/Screenshot%202025-06-01%20113903.png)
 
 > 💡 Tip: Save your screenshots in a `screenshots/` folder inside your repo and update the paths above.
 
